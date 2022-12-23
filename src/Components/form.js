@@ -3,7 +3,7 @@ import React from "react";
 const form = () => {
   return (
     <div className="ml-10">
-      <div className=" text-5xl font-bold mb-5 flex justify-center">
+      <div className=" text-5xl font-bold mb-4 flex justify-center">
         Make Your Reservation
       </div>
       <br />
@@ -50,7 +50,7 @@ const form = () => {
         </select>
       </div>
       <input type="reset" value="" className="mt-3 text-black" />
-      <button className="mt-4 bg-gray-400 p-1.5 rounded-sm">Submit</button>
+      <button className="my-4 bg-gray-400 p-1.5 rounded">Submit</button>
     </div>
   );
 };
